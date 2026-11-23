@@ -5,7 +5,7 @@
 预算 $600 | 建议报价 $528（88%）| 周期 2-3 周（任务建议）
 
 【你的留言】
-I will deliver a runnable candidate-side H5 (React + Vite) with mock services covering the full flow: source-channel entry, informed consent, 7-field registration, policy Q&A with sources, station selection, booking and result page, plus Playwright E2E tests passing in one command at 375/390/414 widths. Data sources: only the ticket brief and public platform rules, with fictional data and placeholders - no external datasets. Delivery within 2-3 weeks.
+I will deliver a runnable candidate-side H5 (React + Vite) with mock services covering the full flow: source-channel entry, informed consent, 7-field registration, policy Q&A with sources, station selection, booking and result page, plus Playwright E2E tests passing in one command at 375/390/414 widths. Runnable source is already available at https://github.com/muye1122/rider-recruit-candidata-h5 (12/12 E2E tests green). Data sources: only the ticket brief and public platform rules, with fictional data and placeholders - no external datasets. Delivery within 2-3 weeks.
 
 【详细方案】
 Understanding: This is Task 2/5 - the job-seeker H5 / mini program for an agent-based rider recruitment platform, following Shared Interface Contract v1. Deliverables are a runnable React source repository, a one-command docker compose startup, OpenAPI/contract tests and E2E verification.
