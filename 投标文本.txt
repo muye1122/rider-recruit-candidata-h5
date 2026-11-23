@@ -8,7 +8,7 @@
 I will deliver a runnable candidate-side H5 (React + Vite) with mock services covering the full flow: source-channel entry, informed consent, 7-field registration, policy Q&A with sources, station selection, booking and result page, plus Playwright E2E tests passing in one command at 375/390/414 widths. Runnable source is already available at https://github.com/muye1122/rider-recruit-candidata-h5 (12/12 E2E tests green). Data sources: only the ticket brief and public platform rules, with fictional data and placeholders - no external datasets. Delivery within 2-3 weeks.
 
 【详细方案】
-Understanding: This is Task 2/5 - the job-seeker H5 / mini program for an agent-based rider recruitment platform, following Shared Interface Contract v1. Deliverables are a runnable React source repository, a one-command docker compose startup, OpenAPI/contract tests and E2E verification.
+Understanding: This is Task 2/5 - the job-seeker H5 / mini program for an agent-based rider recruitment platform, following Shared Interface Contract v1. Deliverables are a runnable React source repository, a one-command docker compose startup, OpenAPI/contract tests and E2E verification. A working repository is already available for review at https://github.com/muye1122/rider-recruit-candidata-h5 .
 
 Plan:
 1. Build the H5 screens: entry with source_channel, consent gate, chat with progress x/7, policy cards, station cards, booking and result page, and self-service rights.
@@ -20,7 +20,7 @@ Data sources: No external datasets are needed. All content is compiled from the 
 
 Why me: I specialise in runnable full-stack deliverables with reproducible verification - React frontends, mock APIs, Docker packaging and automated E2E tests with evidence.
 
-Implementation: No special access or real backend is needed. Dependencies on other tasks are mocked locally per the contract. Path: scaffold React H5 -> implement screens and state machine -> add mocks -> E2E tests -> Docker packaging -> verification record.
+Implementation: No special access or real backend is needed. Dependencies on other tasks are mocked locally per the contract. Path: scaffold React H5 -> implement screens and state machine -> add mocks -> E2E tests -> Docker packaging -> verification record. The current runnable build is at https://github.com/muye1122/rider-recruit-candidata-h5 with README startup steps; docker compose up starts H5 on 4173 and mock API on 3001.
 
 Acceptance criteria - every customer criterion addressed explicitly:
 - Criterion 1 (deliverables first: source repo + startup instructions): a browsable repository with README and docker compose is delivered.
@@ -48,7 +48,7 @@ Pricing & scope: The bid of $528 covers the H5 source, mock services, Docker pac
 买方需要提供的材料: None required at this stage; the shared interface contract v1 in the brief is sufficient. Full anonymised requirements provided after award per the brief.
 交付时间安排: Architecture and skeleton in week 1; full flow and mocks in week 2; tests, Docker and verification record in week 3; 2 revision rounds included.
 包含的修改轮次: 2
-类似工作的证据（你的声明）: Prior experience delivering runnable React frontends with mock APIs, Docker packaging and automated E2E tests with reproducible verification records. (Statement only - no client materials can be shared under confidentiality.)
+类似工作的证据（你的声明）: Runnable evidence: https://github.com/muye1122/rider-recruit-candidata-h5 - a browsable repository with README, Docker startup, Playwright E2E tests and a verification record (12/12 tests green). Prior experience delivering React frontends with mock APIs and reproducible verification. (No client materials can be shared under confidentiality.)
 
 【周期】
 3 weeks
