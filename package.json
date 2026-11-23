@@ -1,0 +1,28 @@
+{
+  "name": "rider-recruit-candidate-h5",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Candidate-side H5 for agent-based rider recruitment (Task 2/5). React + Vite + Express mock + Playwright.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "mock": "node mock-server/index.js",
+    "dev:all": "concurrently -k \"npm:mock\" \"npm:dev\"",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4173",
+    "test": "playwright test",
+    "test:install": "playwright install chromium"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "vite": "^6.0.7"
+  },
+  "license": "MIT"
+}
